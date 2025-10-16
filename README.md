@@ -1,0 +1,2 @@
+# teacher
+bu sayt sotilade
