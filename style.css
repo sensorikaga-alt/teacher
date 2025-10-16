@@ -1,0 +1,334 @@
+@import url(https://fonts.googleapis.com/css?family=Days+One:regular);
+
+
+* {
+    /* barcha elementlarda tashqi joylarni avvaliga olib tashlaydi! */
+    margin: 0;
+
+    /* barcha elementlarda ichki joylarni avvaliga olib tashlaydi! */
+    padding: 0;
+
+    /* barcha elementlarga (avval width height berilgan bo'lsa) keyinchalik padding berilsa buzilib ketmaydi shakli */
+    box-sizing: border-box;
+
+    /* shrift */
+    font-family: "Days One";
+
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+
+body {
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+    background-color: aliceblue;
+}
+
+.header {
+    width: 100%;
+
+    /* browserda ochilib turgan oynani to'liq balandligi */
+    height: 100vh; /*viewport height*/
+}
+
+.notification {
+    width: 100%;
+    height: 40px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    box-shadow: 0px 0px 2px gray;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 0px 100px;
+}
+
+nav .nav_left, nav .nav_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav_left img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+nav .nav_left ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav .nav_left ul li a {
+    padding: 10px 20px;
+    color: black;
+    border-radius: 10px;
+}
+
+nav .nav_left ul li a:hover {
+    background-color: gray;
+    color: white;
+}
+
+nav .nav_right a:nth-child(2) {
+    padding: 10px 20px;
+    color: black;
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color: orange;
+    color: white;
+}
+
+nav .nav_right a:nth-child(2):hover {
+    background-color: gray;
+    color: white;
+}
+
+
+/* header */
+.header section {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header section h1 {
+    font-size: 60px;
+    background-color: rgb(230, 230, 230);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.header section h1 span {
+    color: orange;
+}
+
+.header section ul {
+    padding: 15px;
+    background-color: rgb(235, 235, 235);
+    transform: scale(1.5);
+}
+
+.header section ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.header section ul li img {
+    padding: 20px;
+    width: 80px;
+    background-color: rgb(224, 224, 224);
+    border-radius: 10px;
+}
+
+.header section .buttons {
+    margin-top: 70px;
+    margin-bottom: 120px;
+}
+
+.header section .buttons button {
+    padding: 15px 25px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.header section .buttons button:nth-child(1) {
+    background-color: orange;
+    color: white;
+}
+
+
+
+
+
+
+
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+.cards h1 {
+    text-align: right;
+    margin-top: 30px;
+}
+
+.cards img {
+    display: block;
+    text-align: right;
+    margin-left: auto;
+}
+.cards h4 {
+ margin: 20px;
+}
+.cards p {
+ margin: 20px;
+}
+
+    .cards {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+ 
+  }
+  .card, .carda {
+    width: 300px;
+    height: 300px;
+    flex: 1 1 calc(33.33% - 20px);      
+    background-color: rgb(240, 240, 240);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .carda {
+    margin-top: 40px;
+    background-color: rgb(240, 240, 240);
+  }
+
+
+
+
+
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;  
+    padding: -50px; 
+    background-color: rgb(240, 240, 240);
+    border-radius: 30px;
+    gap: 30px;
+    
+     
+    
+
+ 
+}
+
+.rasm img {
+width: 900px;
+border-radius: 20px;
+box-shadow:  2px  black;
+margin-left: 10px;
+
+
+
+}
+
+.card-title2 span{
+    background-color: rgb(211, 211, 211);
+    margin: 300px;
+    border-radius: 10px;
+
+    
+}
+
+
+
+.card-title2 {
+    margin-top: 10px;
+    margin: 8px;
+}
+
+.card-title p {
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif;
+    margin: 8px;
+}
+.card-title h3{
+    margin-top: 10px;
+    margin: 8px;
+    
+}
+
+.tugmaget{
+    background-color: rgb(230, 230, 230);
+    margin: 8px;
+    width: 900px;
+    height: 50px;
+}
+.tugma_alohida{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.tugma_alohida button { 
+    background-color: white;
+    border-radius: 8px;
+    width: 100px;
+    height: 50px;
+}
+
+
+
+
+
+.blok{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+
+
+
+    .blok {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+ 
+  }
+  .uqituvche, .uqituvchea {
+    width: 300px;
+    height: 200px;
+    flex: 1 1 calc(44.44% - 20px);      
+    background-color: rgb(240, 240, 240);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .uqituvchea {
+    margin-top: 40px;
+    background-color: rgb(240, 240, 240);
+  }
+
+
+.funksiya{
+display: flex
+
+}
+.funksiya p{
+    align-items: center;
+    margin-top: 8px;
+    margin: 10px;
+}
+.funksiya button{
+    margin-left: 500px;
+}
