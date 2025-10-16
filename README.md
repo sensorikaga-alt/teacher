@@ -1,2 +1,2 @@
-# teacher
+# evos
 bu sayt sotilade
